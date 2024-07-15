@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+const Index = () => {
+  // /////  1- MASALA  ///
+  // const obj={
+  //   a:2,
+  //   b:3,
+  //   c:4
+  // }
+  // const n =3
 
-function App() {
-  const [count, setCount] = useState(0)
+  // // 3-MASALA
+  // const books = [
+  //   {
+  //     title: "Halqa",
+  //     author: "Akrom Malik",
+  //     read: false,
+  //   },
+  //   {
+  //     title: "Dunyoning ishlari",
+  //     author: "O’tkir Hoshimov",
+  //     read: true,
+  //   },
+  //   {
+  //     title: "Iymon",
+  //     author: "Shayx Muhammad Sodiq Muhammad Yusuf",
+  //     read: true,
+  //   },
+  // ];
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+  // books.forEach((item) => {
+  //   if (item.read === true) {
+  //     let result=`${item.author}ning ${item.title} kitoni o'qilgan`
+  //     console.log(result);
+  //   } else {
+  //     let result=`${item.author}ning ${item.title} kitoni o'qilmagan`
+  //     console.log(result)
+  //   }
+  // });
+  
 
-export default App
+  return <div>APP COMPONENT</div>;
+};
+
+export default Index;
